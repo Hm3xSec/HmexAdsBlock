@@ -1,5 +1,7 @@
 Program Name: HmexAdsBlock
+
 Version:      0.1.0
+
 Coder:        Hm3x
 
 Python destekli reklam engelleme aracı.
