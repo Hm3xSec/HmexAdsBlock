@@ -32,9 +32,14 @@ python python/main.py list
 Kullanım-Python
 
 Bağlantı engellemek için:
+
 python main.py block reklam-sunucusu.com
+
 Bağlantı engeli kaldırmak için:
+
 python main.py unblock reklam-sunucusu.com
+
 Engellenen bağlantıları görmek için
+
 python main.py list
 
