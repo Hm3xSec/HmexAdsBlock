@@ -1,0 +1,21 @@
+{
+    "manifest_version":3,
+    "name":"HmexAdsBlock",
+    "version":"0.1.0",
+    "description":"HmexAdsBlock reklam engelleme aracı",
+    "permissions": [
+        "declarativeNetRequest"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "declarative_net_request":{
+        "rule_resources":[
+            {
+                "id":"ad_rules",
+                "enabled":true,
+                "path":"rules.json"
+            }
+        ]
+    }
+}
